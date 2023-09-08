@@ -40,7 +40,10 @@ const About = () => {
           </div>
 
           <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          As a data analyst with over three years of experience, I've developed a deep understanding of how data can be used to inform and drive decision-making. I've worked on political campaigns for progressive candidates, where I analyzed survey data, created interactive dashboards with live updates, and wrote regular reports to keep partners informed.
+          </p>
+          <p>
+          If you're looking for a skilled data analyst who is eager to transition into software engineering, please don't hesitate to reach out. I'm excited about the opportunity to work on projects that make a difference and to collaborate with other skilled professionals to develop innovative solutions.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
