@@ -112,6 +112,14 @@ img{
 }
 
 
+@media screen and (min-width: 1800px) {
+    section{
+        margin-top: 30rem;
+        height: 100vh;
+    }
+}
+
+
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px){
     .container {

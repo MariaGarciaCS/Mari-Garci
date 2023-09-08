@@ -32,15 +32,12 @@ header{
     bottom: 3rem;
 }
 
-
 .header__socials::after {
     content: '';
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
-
-
 /* =========== IMG ============= */
 
 .me{
@@ -48,11 +45,11 @@ header{
     /* width: 22rem;
     height: 30rem; */
     width: 22rem;
-    height: 23rem;
+    height: 24rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
@@ -73,17 +70,29 @@ header{
 
 
 /* ============= MEDIA QUERIES ================== */
-@media screen and (max-width: 1024px){
-    header{
-        height: 68vh;
+@media screen and (min-width: 1800px) {
+    .me{
+        width: 30rem;
+        height: 36rem;
+        margin-top: 5rem;
+        border-radius: 14rem 14rem 0 0;
+        overflow: hidden;
+        padding: 1.5rem 1.5rem .5rem 1.5rem;
     }
+
+    header{
+        padding-top: 12rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px){
+
 }
 
 
 @media screen and (max-width: 600px){
-    header{
-        height: 68vh;
-    }
 
     .header__socials, .scroll__down{
         display: none;
