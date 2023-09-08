@@ -45,7 +45,7 @@ const About = () => {
           <p>
           If you're looking for a skilled data analyst who is eager to transition into software engineering, please don't hesitate to reach out. I'm excited about the opportunity to work on projects that make a difference and to collaborate with other skilled professionals to develop innovative solutions.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          
         </div>
       </div>
     </section>
