@@ -70,6 +70,10 @@ section > h2 {
     margin-bottom: 3rem;
 }
 
+.section-title{
+    padding-top: 3rem;
+}
+
 .text-light {
     color: var(--color-light);
 }
@@ -113,10 +117,11 @@ img{
 
 
 @media screen and (min-width: 1800px) {
-    section{
-        margin-top: 30rem;
-        height: 100vh;
+    .section-title{
+        padding-top: 8rem;
     }
+
+
 }
 
 
@@ -129,6 +134,7 @@ img{
     section {
         margin-top: 6rem;
     }
+
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) =========== */
