@@ -64,6 +64,10 @@
  .experience__content{
     padding: 1rem;
  }
+ .experience__details-icon{
+    display: none;
+
+}
 }
 
 
@@ -74,5 +78,9 @@
     .experience__container > div{
         width: 100%;
         padding: 2rem 1rem;
+    }
+    .experience__details-icon{
+        display: none
+    
     }
 }
