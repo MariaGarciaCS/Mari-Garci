@@ -84,6 +84,14 @@ header{
         padding-top: 12rem;
     }
 
+    .header__socials{
+        font-size: 1.5em;
+    }
+
+    .scroll__down{
+        font-size: 1.2em;
+    }
+
 }
 
 
