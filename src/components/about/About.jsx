@@ -29,7 +29,7 @@ const About = () => {
             <article className='about__card'>
               <HiCodeBracket className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working in Tech</small>
+              <small>3+ Years Industy Experience</small>
             </article>
 
             <article className='about__card'>

@@ -3,6 +3,7 @@ import './portfolio.css'
 import SDS from '../../assets/SDS.jpg'
 import GOTV2023 from '../../assets/GOTV2023.png'
 import MG from '../../assets/MG.png'
+import TAB from '../../assets/Tab.png'
 
 const Portfolio = () => {
   return (
@@ -79,8 +80,31 @@ const Portfolio = () => {
               <a href="https://scarletstudio.github.io/transithealth/" className='btn btn-primary'target='_blank'>Site</a>
             </div>
           </div>
+
+
+          <div className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={TAB}/>
+            </div>
+            <h3>Chicago Towing Analysis, ongoing project</h3>
+            <p className="project-description">
+              Analyzed trends in vehicle relocations in Chicago
+            </p>
+            <ul className='tech-used'>
+            <li>Tableau</li>
+            <li>Postman</li>
+            <li>API</li>
+          </ul>
+            <div className="portfolio__item-cta">
+              {/* <a href="https://github.com/scarletstudio/transithealth" className='btn' target='_blank'>GitHub</a> */}
+              <a href="https://prod-useast-b.online.tableau.com/#/site/chicagotrafficanalysis/collections/2e98f04b-7df1-4926-a072-e9ceb4587b51?:origin=card_share_link" className='btn btn-primary'target='_blank'>Site</a>
+            </div>
+          </div>
         </div>
       </section>
+
+
+      
   )
 }
 
