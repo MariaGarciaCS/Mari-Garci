@@ -35,7 +35,7 @@ const Portfolio = () => {
           </ul>
             <div className="portfolio__item-cta">
               <a href="https://github.com/MariaGarciaCS/chi-town-stadium-parking" className='btn' target='_blank'>GitHub</a>
-              {/* <Link to="/parking" className='btn btn-primary'>Site</Link> */}
+              <Link to="/parking" className='btn btn-primary'>Site</Link>
             </div>
           </div>
 

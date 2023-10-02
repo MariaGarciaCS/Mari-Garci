@@ -18,6 +18,12 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    --chi-blue: #B3DDF2;
+    --chi-red: #FF0000;
+    --soft-gray: #EBEBEB;
+    --white: #FFF;
+    --box-shadow-light: 0px 1px 10px #000;
+
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
