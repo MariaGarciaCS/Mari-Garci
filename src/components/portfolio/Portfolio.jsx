@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './portfolio.css'
+
 import SDS from '../../assets/SDS.jpg'
 import GOTV2023 from '../../assets/GOTV2023.png'
 import MG from '../../assets/MG.png'
 import TAB from '../../assets/Tab.png'
+import CTSP from '../../assets/CTSP.png'
 
 const Portfolio = () => {
   return (
@@ -14,6 +17,29 @@ const Portfolio = () => {
 
         <div className="container portfolio__container">
 
+        {/* CHI TOWN STADIUM PARKING */}
+        <div className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={CTSP}/>
+            </div>
+            <h3>Chi-Town Stadium Parking</h3>
+            <p className="project-description">
+              Helps users evaluate if they can park on the street during events.
+            </p>
+            <ul className='tech-used'>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML/CSSL</li>
+            <li>API</li>
+            <li>CI/CD</li>
+          </ul>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/MariaGarciaCS/chi-town-stadium-parking" className='btn' target='_blank'>GitHub</a>
+              {/* <Link to="/parking" className='btn btn-primary'>Site</Link> */}
+            </div>
+          </div>
+
+        {/* PERSONAL WEBSITE */}
         <div className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={MG}/>
@@ -34,6 +60,7 @@ const Portfolio = () => {
           </div>
         </div>
 
+        {/* GOTV 2023 */}
         <div className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={GOTV2023}/>
