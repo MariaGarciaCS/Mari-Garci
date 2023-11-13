@@ -109,7 +109,7 @@ const Portfolio = () => {
           </div>
 
 
-          <div className="portfolio__item">
+          {/*<div className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={TAB}/>
             </div>
@@ -123,10 +123,10 @@ const Portfolio = () => {
             <li>API</li>
           </ul>
             <div className="portfolio__item-cta">
-              {/* <a href="https://github.com/scarletstudio/transithealth" className='btn' target='_blank'>GitHub</a> */}
+               <a href="https://github.com/scarletstudio/transithealth" className='btn' target='_blank'>GitHub</a> 
               <a href="https://prod-useast-b.online.tableau.com/#/site/chicagotrafficanalysis/collections/2e98f04b-7df1-4926-a072-e9ceb4587b51?:origin=card_share_link" className='btn btn-primary'target='_blank'>Site</a>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 
